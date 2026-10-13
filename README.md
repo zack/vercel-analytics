@@ -198,8 +198,8 @@ The combined daily series across every project. `range` defaults to `30`.
 
 A breakdown by one dimension, combined across projects (or scoped to one
 project with `projectId`). `:name` must be one of the allowlisted
-dimensions: `country`, `referrer_hostname`, `device_type`, `browser_name`,
-`os_name`, `request_path`, `route`. Any other value is a `400`. A
+dimensions: `country`, `referrerHostname`, `deviceType`, `browserName`,
+`osName`, `requestPath`, `route`. Any other value is a `400`. A
 `projectId` that doesn't resolve to an analytics-enabled project is a `404`,
 the same as `GET /api/projects/:id` — an unknown project never comes back
 as a silent, empty breakdown.

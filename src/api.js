@@ -17,8 +17,8 @@ const DEFAULT_RANGE_DAYS = 30;
 // A fixed allowlist. `Object.hasOwn` rather than `in`, so an inherited name
 // like `constructor` cannot reach the upstream query string.
 export const DIMENSIONS = [
-  'country', 'referrer_hostname', 'device_type',
-  'browser_name', 'os_name', 'request_path', 'route',
+  'country', 'referrerHostname', 'deviceType',
+  'browserName', 'osName', 'requestPath', 'route',
 ];
 const DIMENSION_SET = new Set(DIMENSIONS);
 

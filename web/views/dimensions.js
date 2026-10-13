@@ -17,11 +17,11 @@ import { getDimension } from '../api.js';
 
 const DIMENSION_LABELS = [
   ['country', 'Countries'],
-  ['referrer_hostname', 'Referrers'],
-  ['device_type', 'Device types'],
-  ['browser_name', 'Browsers'],
-  ['os_name', 'Operating systems'],
-  ['request_path', 'Pages'],
+  ['referrerHostname', 'Referrers'],
+  ['deviceType', 'Device types'],
+  ['browserName', 'Browsers'],
+  ['osName', 'Operating systems'],
+  ['requestPath', 'Pages'],
   ['route', 'Routes'],
 ];
 
